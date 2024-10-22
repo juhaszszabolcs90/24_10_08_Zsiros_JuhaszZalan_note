@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,34 @@
         <label for="password">Jelszó:</label>
         <input type="password" id="password" name="password" required><br><br>
 
-        <input type="submit" value="Regisztráló">
+        <label for="phone">Telefonszám:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label>Nem:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Férfi</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Nő</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Egyéb</label><br><br>
+
+        <label for="color">Kedvenc szín:</label>
+        <input type="color" id="color" name="color "><br><br>
+
+        <label for="profile-pic">Profilkép feltöltése:</label>
+        <input type="file" id="profile-pic" name="profile-pic "><br><br>
+
+        
+        <label for="Born-date">Születési dátum:</label>
+        <input type="datetime-local" id="Born-date" name="Born-date "><br><br>
+
+        <label for="Actual-time">Aktuális idő:</label>
+        <input type="time" id="Actual-time" name="Actual-time "><br><br>
+
+        <label for="interests">Érdeklődési szint (1-100):</label>
+        <input type="range" id="interests" name="interests" min="1" max="100"><br><br>
+
+        <input type="submit" value="Regisztráció">
 
 
     </form>
